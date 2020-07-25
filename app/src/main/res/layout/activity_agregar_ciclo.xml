@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context=".Ciclo.AgregarCicloActivity">
+
+    <TextView
+        android:id="@+id/tv_agregar_ciclo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginTop="60dp"
+        android:text="Ciclos"
+        android:textSize="70sp"
+        android:textAlignment="center">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/ed_agregarCiclo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="15dp"
+        android:drawableLeft="@drawable/ic_ciclo"
+        android:layout_below="@+id/tv_agregar_ciclo"
+        android:hint="Nombre del ciclo"></EditText>
+
+
+    <Button
+        android:id="@+id/btn_Limpiar_agregarCiclo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="15dp"
+        android:layout_above="@+id/btn_Guardar_agregarCiclo"
+        android:text="Limpiar"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_blue_dark">
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/btn_Guardar_agregarCiclo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="15dp"
+        android:layout_alignParentBottom="true"
+        android:text="Guardar"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark">
+
+    </Button>
+
+
+
+
+
+
+</RelativeLayout>
